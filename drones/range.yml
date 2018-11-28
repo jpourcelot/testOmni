@@ -1,0 +1,20 @@
+name: range
+type: metrics
+version: 1.0.0
+description: return an anomalie if time series values are not in the MIN-MAX range
+public: true
+lang: ws
+script: ./range.ws
+params:
+  min:
+    type: number
+    required: true
+    description: lower bound of the range
+  max:
+    type: number
+    required: true
+    description: uppper bound of the range
+  window:
+    type: duration
+    description: fetched time window
+    default: 1h
