@@ -1,0 +1,5 @@
+name: ovhmetrics
+type: metrics
+description: Metrics cluster
+endpoint: https://warp10.gra1.metrics.ovh.net
+token: "KbyMPCGU1ZVxExt8rXQmMxqJsiGSb8VmhH4NP8ScGY_PMJ5YdNM2tqibuc0lC.3QTeCqUJtAw4r_6CGWEaC8X4tsvV_PnnagHhcvV_VjbqeeLn3Zs1KVuZYP78xLU3.EYQFNHkCP3yVBb1sM390ZACvadoQfrCqa"
